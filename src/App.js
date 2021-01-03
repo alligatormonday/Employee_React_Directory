@@ -13,10 +13,9 @@ class App extends Component {
   };
 
   componentDidMount() {
-    API.getTeam().then(res => {
-      this.setState({
-        results: res.data.results
-      })
+    API.getTeam()
+    .then(res => {
+      this.setState({results: res.data.results})
     }).catch(error => { console.log(error) })
   }
 
@@ -26,8 +25,10 @@ class App extends Component {
         <Navbar></Navbar>
         <Container>
           <Table>
-            <TableContent>
+            {this.state.results.map((result, i) => (
+            <TableContent name={result.name.first} number={i} email={result.email} phone={result.phonegit } >
             </TableContent>
+            ))}
           </Table>
         </Container>
       </div>
