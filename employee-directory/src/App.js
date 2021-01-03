@@ -1,5 +1,7 @@
 
 import './App.css';
+import API from "./utils/API.js";
+
 
 const myTeam = [{
   name: "Past Joseph",
