@@ -26,7 +26,7 @@ class App extends Component {
         <Container>
           <Table>
             {this.state.results.map((result, i) => (
-            <TableContent name={result.name.first} number={i} email={result.email} phone={result.phonegit } >
+            <TableContent name={result.name.first} number={i} email={result.email} phone={result.phone} picture={result.picture.large} >
             </TableContent>
             ))}
           </Table>
