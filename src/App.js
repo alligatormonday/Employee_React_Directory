@@ -56,11 +56,12 @@ function App() {
 
 
   return (
-    <div className="App">
+    <div className="App" >
       <Navbar></Navbar>
       <Container>
         <input type="text" className='searchBar' value={search} onChange={(event) => { setSearch(event.target.value) }}>
         </input>
+        <div width="50%" style={{margin: '0 auto', alignContent: 'center', textAlign: 'center'}}>
         <Table sort={sort} setSort={setSort}>
           {search.length < 1 ? results.map((result, i) => (
             <TableContent
@@ -85,6 +86,7 @@ function App() {
             })
           }
         </Table>
+        </div>
       </Container>
     </div>
   )

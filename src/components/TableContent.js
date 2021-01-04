@@ -6,7 +6,7 @@ function TableContent(props) {
             <th scope="row">{props.name}</th>
             <td>{props.email}</td>
             <td>{props.phone}</td>
-            <td><img alt={props.name} src={props.picture}></img></td>
+            <td><img style={{borderRadius: '20px'}} alt={props.name} src={props.picture}></img></td>
         </tr>
     )
 
