@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+.searchBar {
+  border: 4px;
+  border-radius: 1px;
+  width: 50%;
+  height: auto;
+  background-color: fuchsia;
+  border-color: lime;
+  border-style: dotted;
+  margin: 0 auto;
+}
