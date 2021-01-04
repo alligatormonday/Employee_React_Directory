@@ -59,7 +59,7 @@ function App() {
     <div className="App" >
       <Navbar></Navbar>
       <Container>
-        <input type="text" className='searchBar' value={search} onChange={(event) => { setSearch(event.target.value) }}>
+        <input placeholder="Search for employee" type="text" className='searchBar' value={search} onChange={(event) => { setSearch(event.target.value) }}>
         </input>
         <div width="50%" style={{margin: '0 auto', alignContent: 'center', textAlign: 'center'}}>
         <Table sort={sort} setSort={setSort}>
