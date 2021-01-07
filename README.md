@@ -13,15 +13,9 @@ Video of demo: [Employee_React_Directory_DEMO](https://drive.google.com/file/d/1
 
   * [Description](#Description) 
 
-  * [Installation](#Installation) 
-
-  * [Usage](#Usage) 
-
-  * [Contributors](#Contributors) 
-
-  * [Testing](#Testing)
-
   * [Contact](#Contact) 
+
+  * [Credits](#Credits) 
 
   * [License](#License) 
 
