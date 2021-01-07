@@ -1,80 +1,72 @@
-# Getting Started with Create React App
+# 💡 Project Title: Employee_React_Directory
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🕹 Demo:
 
-## Available Scripts
+![Demo of application](public/assets/Employee_React_Directory_DEMO.gif)
 
-In the project directory, you can run:
+Video of demo: [Employee_React_Directory_DEMO](https://drive.google.com/file/d/1gMT6DVteN0EC1KBZ5hVvBozQe0tVLhJn/view) 
 
-### `npm start`
+![License](https://img.shields.io/badge/License-MIT-yellow) 
+## 👤 Author: Joseph Jepson 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  ## 📜 Table of Contents: 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+  * [Description](#Description) 
 
-### `npm test`
+  * [Installation](#Installation) 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  * [Usage](#Usage) 
 
-### `npm run build`
+  * [Contributors](#Contributors) 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  * [Testing](#Testing)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  * [Contact](#Contact) 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  * [License](#License) 
 
-### `npm run eject`
+  ## Description: 
+This is a simple application that utilizes the [Random User Generator API](https://randomuser.me/). This data provides an employee name, email, phone number, and picture. A user can sort employees from alphabetically, and filter an employee by name. 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+This application utilizes React.js, Node.js, ESlint, CSS, HTML
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Image of DEMO application](public/assets/DEMO_image.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+View Deployment: [Employee_React_Directory](alligatormonday.github.io/employee_react_directory/)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+  ## Contact: 
+ 
+  * 💌  Email: joey@joeyjepson.com 
+ 
+  * 👤  GitHub Username: [alligatormonday](https://github.com/alligatormonday) 
 
-## Learn More
+  ## Credits: 
+ 
+  * 👤  GitHub User: [Dane Burns](https://github.com/daneburns) - helped me with troubleshooting my react hooks
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  * 👤  GitHub User: [Andrew Moses](https://github.com/andrewmosesdrive) - gave me a second pair of eyes  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  ## License: 
+ 
+  
+    MIT License
 
-### Code Splitting
+Copyright (c) 2020 Joseph Jepson
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-### Analyzing the Bundle Size
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-## Acceptance Criteria
-
-Given a table of random users generated from the [Random User API](https://randomuser.me/), when the user loads the page, a table of employees should render. 
-
-The user should be able to:
-
-  * Sort the table by at least one category
-
-  * Filter the users by at least one property.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
