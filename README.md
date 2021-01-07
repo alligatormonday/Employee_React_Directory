@@ -32,7 +32,7 @@ This application utilizes React.js, Node.js, ESlint, CSS, HTML
 
 ![Image of DEMO application](public/assets/DEMO_image.png)
 
-View Deployment: [Employee_React_Directory](alligatormonday.github.io/employee_react_directory/)
+View Deployment: [Employee_React_Directory](https://alligatormonday.github.io/Employee_React_Directory/)
 
   ## Contact: 
  
